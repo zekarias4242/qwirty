@@ -1,0 +1,33 @@
+header {
+  background-color: #601ef9;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menuBar,
+.utilityNav {
+  display: flex;
+  gap: 20px;
+}
+
+.menuBar li,
+.utilityNav li {
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.menuBar li:hover,
+.utilityNav li:hover {
+  text-decoration: underline;
+}
